@@ -26,7 +26,7 @@ jobs:
             "repositoryUrl": "${{ github.repositoryUrl }}",
             "branchName": "${{ github.head_ref }}",
             "pullRequestId": "${{ github.ref }}",
-            "uploadToExternalSystem": "false",
+            "uploadToExternalSystem": "true",
             "deadline": "2023-01-01 23:59",
             "staticSolution": "false",
             "language": "java"
