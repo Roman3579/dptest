@@ -16,7 +16,7 @@ jobs:
       - name: Send request
         uses: satak/webrequest-action@master
         with:
-          url: https://safe-ocean-39160.herokuapp.com//solution
+          url: https://safe-ocean-39160.herokuapp.com/solution
           method: POST
           payload: >
             {
