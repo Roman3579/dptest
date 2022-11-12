@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    if: startsWith(github.head_ref, 'vsa/java')
+    if: startsWith(github.head_ref, 'vsa-java')
     runs-on: ubuntu-latest
 
     steps:
