@@ -27,7 +27,7 @@ jobs:
             "branchName": "${{ github.head_ref }}",
             "pullRequestId": "${{ github.ref }}",
             "uploadToExternalSystem": "true",
-            "assignmentExternalId": "10",
+            "assignmentExternalId": "15",
             "deadline": "2023-12-12 23:59",
             "staticSolution": "false",
             "language": "java"
