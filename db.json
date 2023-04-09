@@ -1,7 +1,7 @@
 {
   "dialect": "org.hibernate.dialect.PostgreSQLDialect",
   "ddlAuto":"none",
-  "url":"jdbc:postgresql://{IP_ADDRESS_PLACEHOLDER}/default",
+  "url":"jdbc:postgresql://{IP_ADDRESS_PLACEHOLDER}:5432/default",
   "ip": "{IP_ADDRESS_PLACEHOLDER}",
   "database": "default",
   "username":"default",
