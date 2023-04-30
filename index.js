@@ -16,3 +16,5 @@ const _add = add;
 export { _add as add };
 const _subtract = subtract;
 export { _subtract as subtract };
+const _create_range = create_range;
+export { _create_range as create_range };
