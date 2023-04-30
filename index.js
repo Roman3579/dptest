@@ -1,3 +1,5 @@
+import _ from 'lodash';
+
 const add = (first, second) => {
   return first + second;
 };
@@ -6,5 +8,11 @@ const subtract = (first, second) => {
   return first - second;
 };
 
-module.exports.add = add;
-module.exports.subtract = subtract;
+const create_range = (start, end) => {
+  return _.range(start, end);
+}
+
+const _add = add;
+export { _add as add };
+const _subtract = subtract;
+export { _subtract as subtract };
